@@ -239,7 +239,6 @@ while True:
         cs()
         break
     if command.lower() == "1":
-        check(token)
         add_money(token)
         success()
         time.sleep(2)
